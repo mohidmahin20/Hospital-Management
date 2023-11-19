@@ -175,50 +175,50 @@ public class HospitalManagement
             s[i] = new staff();
 
         d[0].did = "21";
-        d[0].dname = "Dr.Ghanendra";
+        d[0].dname = "Dr.Imran";
         d[0].specilist = "ENT";
         d[0].appoint = "5-11AM";
         d[0].doc_qual = "MBBS,MD";
         d[0].droom = 17;
         d[1].did = "32";
-        d[1].dname = "Dr.Vikram";
+        d[1].dname = "Dr.Maruf";
         d[1].specilist = "Physician";
         d[1].appoint = "10-3AM";
         d[1].doc_qual = "MBBS,MD";
         d[1].droom = 45;
         d[2].did = "17";
-        d[2].dname = "Dr.Rekha";
+        d[2].dname = "Dr.Nusrat";
         d[2].specilist = "Surgeon";
         d[2].appoint = "8-2AM";
         d[2].doc_qual = "BDM";
         d[2].droom = 8;
         d[3].did = "33";
-        d[3].dname = "Dr.Pramod";
+        d[3].dname = "Dr.Rajib";
         d[3].specilist = "Artho";
         d[3].appoint = "10-4PM";
         d[3].doc_qual = "MBBS,MS";
         d[3].droom = 40;
 
         p[0].pid = "12";
-        p[0].pname = "Pankaj";
+        p[0].pname = "Anon";
         p[0].disease = "Cancer";
         p[0].sex = "Male";
         p[0].admit_status = "y";
         p[0].age = 30;
         p[1].pid = "13";
-        p[1].pname = "Sumit";
-        p[1].disease = "Cold";
+        p[1].pname = "Shushi";
+        p[1].disease = "Aids";
         p[1].sex = "Male";
         p[1].admit_status = "y";
         p[1].age = 23;
         p[2].pid = "14";
-        p[2].pname = "Alok";
+        p[2].pname = "Danial";
         p[2].disease = "Maleriya";
         p[2].sex = "Male";
         p[2].admit_status = "y";
         p[2].age = 45;
         p[3].pid = "15";
-        p[3].pname = "Ravi";
+        p[3].pname = "Shakib";
         p[3].disease = "Diabetes";
         p[3].sex = "Male";
         p[3].admit_status = "y";
@@ -260,12 +260,12 @@ public class HospitalManagement
         f[3].fec_name = "Emergency";
 
         s[0].sid = "22";
-        s[0].sname = "Prakash";
+        s[0].sname = "Karim";
         s[0].desg = "Worker";
         s[0].sex = "Male";
         s[0].salary = 5000;
         s[1].sid = "23";
-        s[1].sname = "Komal";
+        s[1].sname = "Rekha";
         s[1].desg = "Nurse";
         s[1].sex = "Female";
         s[1].salary = 2000;
@@ -328,7 +328,7 @@ public class HospitalManagement
                 case 2:
                     {
                         System.out.println("--------------------------------------------------------------------------------");
-                        System.out.println("                     **PATIENT SECTION**");
+                        System.out.println("                       **PATIENT SECTION**");
                         System.out.println("--------------------------------------------------------------------------------");
                         s2 = 1;
                         while (s2 == 1)
